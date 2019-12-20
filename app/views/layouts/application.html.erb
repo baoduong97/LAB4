@@ -1,14 +1,29 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Instacamp</title>
-    <%= csrf_meta_tags %>
-    <%= csp_meta_tag %>
 
-    <%= stylesheet_link_tag    'application', media: 'all' %>
-  </head>
+<head>
+    <%# <title>Instacamp</title> %>
 
-  <body>
-    <%= yield %>
-  </body>
+        <%= csrf_meta_tags %>
+            <%= csp_meta_tag %>
+
+                <%= stylesheet_link_tag    'application', media: 'all' %>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm bg-light navbar-light">
+        <a class="navbar-brand" href="<%= root_path %>">InstaCamp</a>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link">Home<span class="sr-only"></span></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <%= yield %>
+    </div>
+</body>
+
 </html>
