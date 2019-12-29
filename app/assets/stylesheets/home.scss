@@ -14,3 +14,15 @@
     //         max-width: 100%; // prevent the image from overstretching
     //     }
 }
+
+.card-header {
+    overflow: auto;
+}
+
+#name {
+    float: left;
+}
+
+#time {
+    float: right;
+}
