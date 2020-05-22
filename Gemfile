@@ -13,7 +13,7 @@ gem 'rubocop-faker'
 gem 'rspec'
 # Use Puma as the app server
 gem 'rake' , '>= 0.9.2'
-gem 'puma', '~> 4.1'
+gem 'puma', '~> 4.3'
 # Use SCSS for stylesheets
 gem 'sass-rails', '>= 6'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
